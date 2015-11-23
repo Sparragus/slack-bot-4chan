@@ -37,7 +37,7 @@ function onMessageToEdwardSnowden (message) {
   };
 
   // post message to #random
-  var anonymousChannel = slack.getChannelByName('random');
+  var anonymousChannel = slack.getChannelByName('ikomitesidinliyor');
   anonymousChannel.postMessage(response);
 }
 
